@@ -1,7 +1,7 @@
 [
   {
     "name": "Commercial Airplane",
-    "unitType": "Fighter", // Categorizes the unit as an air unit type [3].
+    "unitType": "Civilian", // Categorizes the unit as an air unit type [3].
     "movement": 12, // The number of movement points the unit has [3].
     "strength": 0, // No melee strength, as it's a commercial unit [3].
     "rangedStrength": 0, // No ranged strength [3].
