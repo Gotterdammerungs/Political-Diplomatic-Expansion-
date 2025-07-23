@@ -2,18 +2,16 @@
   {
     "name": "Commercial Airplane",
     "unitType": "Civilian", // Categorizes the unit as an air unit type [3].
-    "movement": 12, // The number of movement points the unit has [3].
+    "movement": 0, // The number of movement points the unit has [3].
     "strength": 0, // No melee strength, as it's a commercial unit [3].
     "rangedStrength": 0, // No ranged strength [3].
     "cost": 350, // The production cost to build the unit [3].
     "requiredTech": "Flight", // The technology required to build this unit [3].
     "uniques": [
-      // Corrected: Specifies that it can carry 5 civilian units. The "Can carry [amount] [mapUnitFilter] units" unique requires a numerical amount [4, 5].
       "Can carry [1] [Civilian] units",
-      // Allows the unit to paradrop only onto "Airport" tiles with a very long range [6].
-      "May Paradrop to [Airport] tiles up to  tiles away",
-      "Cannot attack", // Explicitly prevents the unit from initiating attacks [7].
-      "Uncapturable" // Ensures the unit cannot be captured by enemies [8].
+      "May Paradrop to [Airport] tiles up to [10] tiles away",
+      "Cannot attack",
+      "Uncapturable"
     ],
     "attackSound": "none" // Specifies no sound is played when the unit "attacks" [3].
   }
