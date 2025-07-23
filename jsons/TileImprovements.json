@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Embassy",
+    "techRequired": "Writing",
+    "turnsToBuild": 3,
+    "terrainsCanBeBuiltOn": ["Land"],
+    "uniques": [
+      "Provides [2] [DiplomaticPoints] <in foreign cities>",
+      "Comment [A symbol of your nation's extended diplomatic and scientific network abroad.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "The Embassy allows a civilization to extend its diplomatic reach into foreign lands, improving relations with nearby City-States, fostering cultural exchange, and facilitating agreements with other major powers. It serves as a hub for open borders, research partnerships, and defensive alliances."
+      }
+    ]
+  }
+]
