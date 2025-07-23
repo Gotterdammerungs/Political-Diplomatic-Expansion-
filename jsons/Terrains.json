@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Mountain",
+    "type": "Land",
+    "impassable": false,
+    "movementCost": 999,
+    "defenceBonus": 0.25, // Example, actual value may vary
+    "uniques": [
+      "Units ending their turn on this terrain take [7] damage"
+    ]
+  }
+]
