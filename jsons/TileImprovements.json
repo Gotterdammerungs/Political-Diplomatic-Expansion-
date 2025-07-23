@@ -13,5 +13,13 @@
         "text": "The Embassy allows a civilization to extend its diplomatic reach into foreign lands, improving relations with nearby City-States, fostering cultural exchange, and facilitating agreements with other major powers. It serves as a hub for open borders, research partnerships, and defensive alliances."
       }
     ]
+  },
+  {
+    "name": "Airport",
+    "terrainsCanBeBuiltOn": ["Land"], // Specifies that this improvement can only be built on land tiles [3, 4]
+    "turnsToBuild": 8, // Example: takes 8 turns for a Worker unit to build this improvement [3]
+    "civilopediaText": [ // Optional: Provides descriptive text for the Civilopedia [3, 7]
+      {"text": "A specialized tile improvement that serves as a hub for advanced aerial transport units, allowing for rapid deployment and strategic movement across the map."}
+    ]
   }
-]
+    ]
